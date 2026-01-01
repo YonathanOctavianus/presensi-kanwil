@@ -22,12 +22,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 
       
-        <script src="{{ asset('js/cdn.min.js') }}" defer></script>
+        {{-- <script src="{{ asset('js/cdn.min.js') }}" defer></script> --}}
 
-        {{-- <script src="{{ asset('js/alpinejs.min.js') }}" defer></script>
+        <script src="{{ asset('js/alpinejs.min.js') }}" defer></script>
 
         <!-- Opsi 2: Gunakan jsdelivr -->
-        <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.3/dist/cdn.min.js" defer></script> --}}
+        <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.15.3/dist/cdn.min.js" defer></script>
 
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
